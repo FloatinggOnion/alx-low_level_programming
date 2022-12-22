@@ -18,5 +18,7 @@ int main(void)
 	for (i = 0; i < 26; i++)
 		putchar(toupper(alphabet[i]));
 
+	putchar('\n');
+
 	return (0);
 }
