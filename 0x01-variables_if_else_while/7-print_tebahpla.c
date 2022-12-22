@@ -12,7 +12,7 @@ int main(void)
 	int i;
 
 	for (i = 26; i > 0; i--)
-		putchar(alphabet[i]);
+		putchar(alphabet[i-1]);
 
 	putchar('\n');
 
